@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+body{
+  width:100%;
+  height:100vh;
+  font-family: 'Outfit', sans-serif;
+  background: var(--bg-color)
+}
+
+:root{
+
+  --bg-color: hsl(217, 54%, 11%);
+  --bg-card-color: hsl(216, 50%, 16%);
+  --fildset:hsl(215, 32%, 27%);
+
+  --white: hsl(0, 0%, 100%);
+
+  --cyan: hsl(178, 100%, 50%);
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  display: grid;
+  place-items: center;
+  transform: scale(0.9);
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+p, .post span, footer > span{
+  color: hsla(0, 0%, 100%, 0.575);
+  
+}
+.card{
+  max-width: 350px;
+  background: var(--bg-card-color);
+  color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card .content-img{
+  width: 100%;
+  background: center;
+
+}
+
+.characteristcs h3{
+  line-height: 3em;
+}
+.characteristcs p{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.buy-post{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.buy-post img{
+  object-fit: contain;
+  width: 1em;
+}
+
+.buy-post .buy, .post{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.buy-post .buy img{
+
+  animation: bownce 1s infinite alternate ease-in-out ;
+
+}
+
+  @keyframes bownce{
+    
+    from{
+    transform: translateY(-2px);
+  }
+  to{
+    transform: translateY(2px);
+  }
+}
+
+.buy-post .buy{
+  color: var(--cyan);
+}
+
+.card footer{
+  padding: 20px 0 10px 0;
+  border: none;
+  border-top: 1px solid var(--fildset);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card footer .avatar{
+  width: 40px;
+  width: 40px;
+}
+
+.card footer .name{
+  font-weight: 300;
+  color: var(--white);
+}
+
+.attribution{
+  color: var(--fildset);
+}
+.attribution a{
+  color: white;
+  text-decoration: none;
+  transition: all .3s;  
+}
+.attribution a:last-child:hover{
+  letter-spacing: 1px;
+}
+
+@media (max-width: 425px){
+  .card{
+    padding: 15px;
+    width: 320px;
+  }
+  
+  .characteristcs h3{
+    line-height: 2.3em;
+  }
+  .characteristcs p{
+    font-size: 15px;
+  }
+
+  .buy-post{
+    padding: 12px 0;
+  }
+  .card footer{
+    padding: 10px 0 5px 0;
+  }
+
+  .attribution{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Card NFT</title>
+
+</head>
+
+<body>
+  <main>
+
+    <div class="card">
+
+      <div class="content-img">
+        <img src="/images/image-equilibrium.jpg" alt="NFT image">
+      </div>
+
+      <div class="characteristcs">
+        <h3>Equilibrium <span>#3429</span></h3> 
+        <p>Our Equilibrium collection promotes balance and calm</p>
+      </div>
+
+      <div class="buy-post">
+
+        <div class="buy">
+          <img src="/images/icon-ethereum.svg" alt="icon ethereum">
+          <span>0.041</span> <span>ETH</span>
+        </div>
+
+        <div class="post">
+          <img src="/images/icon-clock.svg" alt="icon clock">
+          <span>3 days left</span>
+        </div>
+      
+      </div>
+
+      <footer>
+
+        <div class="avatar">
+          <img src="/images/image-avatar.png" alt="avatar">
+        </div>
+        <span>Creation of</span> <span class="name">Jules Wyvern</span>
+
+      </footer>
+    </div>
+
+
+
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/Maxwell-Santos" target="_blank">Maxwell Santos</a>.
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    TweenMax.staggerFrom('.card', 2,{
+      delay: 0.2,
+      opacity: 0,
+      y: 50,
+      ease: Expo.easeInOut
+
+    });
+    TweenMax.staggerFrom('.attribution', 1.6,{
+      delay: 1,
+      opacity: 0,
+      x: 50,
+      ease: Expo.easeInOut
+
+    });
+  </script>
+</body>
+
+</html>
