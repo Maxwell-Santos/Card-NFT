@@ -19,8 +19,8 @@
 - Gsap lib to the window on load animation
 
 ### O que eu aprendi
-
-```css
+- CSS
+```
 .buy-post .buy img{ /*Animation for the Ethereum icon*/
 
   animation: bownce 1s infinite alternate ease-in-out ;
@@ -38,7 +38,8 @@
 }
 
 ```
-```js
+- JS
+```
 //LIB Gspa
     TweenMax.staggerFrom('.card', 2,{ //animation to the card
       delay: 0.2, 
