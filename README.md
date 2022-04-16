@@ -39,7 +39,7 @@
 
 ```
 - JS
-``js
+```js
 //LIB Gspa
     TweenMax.staggerFrom('.card', 2,{ //animation to the card
       delay: 0.2, 
