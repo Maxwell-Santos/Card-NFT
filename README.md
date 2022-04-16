@@ -41,20 +41,20 @@ To see how you can add code snippets, see below:
   }
   to{
     transform: translateY(2px);
-  }
+  } 
 }
 
 ```
 ```js
 //LIB Gspa
-    TweenMax.staggerFrom('.card', 2,{ //animation of the card
+    TweenMax.staggerFrom('.card', 2,{ //animation to the card
       delay: 0.2, 
       opacity: 0,
       y: 50,
       ease: Expo.easeInOut
 
     });
-    TweenMax.staggerFrom('.attribution', 1.6,{ //animation of the footer
+    TweenMax.staggerFrom('.attribution', 1.6,{ //animation to the footer
       delay: 1,
       opacity: 0,
       x: 50,
@@ -64,4 +64,4 @@ To see how you can add code snippets, see below:
 ```
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Maxwell-Santos)
+- Frontend Mentor - [@Maxwell-Santos](https://www.frontendmentor.io/profile/Maxwell-Santos)
