@@ -7,9 +7,9 @@
 - Solution URL: [solution](https://www.frontendmentor.io/solutions/responsive-card-nft-S1Cs_UOE5)
 - Live Site URL: [Card NFT](https://nft-seven-nu.vercel.app/)
 
-## My process
+## Meu processo
 
-### Built with
+### Construido com
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -18,15 +18,8 @@
 - Mobile-first workflow
 - Gsap lib to the window on load animation
 
-### What I learned
+### O que eu aprendi
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 .buy-post .buy img{ /*Animation for the Ethereum icon*/
 
@@ -62,6 +55,6 @@ To see how you can add code snippets, see below:
 
     });
 ```
-## Author
+## Autor
 
 - Frontend Mentor - [@Maxwell-Santos](https://www.frontendmentor.io/profile/Maxwell-Santos)
