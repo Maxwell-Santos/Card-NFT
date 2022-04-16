@@ -28,14 +28,39 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.buy-post .buy img{ /*Animation for the Ethereum icon*/
+
+  animation: bownce 1s infinite alternate ease-in-out ;
+
 }
+
+  @keyframes bownce{
+    
+    from{
+    transform: translateY(-2px);
+  }
+  to{
+    transform: translateY(2px);
+  }
+}
+
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+//LIB Gspa
+    TweenMax.staggerFrom('.card', 2,{ //animation of the card
+      delay: 0.2, 
+      opacity: 0,
+      y: 50,
+      ease: Expo.easeInOut
+
+    });
+    TweenMax.staggerFrom('.attribution', 1.6,{ //animation of the footer
+      delay: 1,
+      opacity: 0,
+      x: 50,
+      ease: Expo.easeInOut
+
+    });
 ```
 ## Author
 

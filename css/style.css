@@ -84,6 +84,7 @@ p, .post span, footer > span{
   align-items: center;
   gap: 5px;
 }
+
 .buy-post .buy img{
 
   animation: bownce 1s infinite alternate ease-in-out ;
