@@ -20,7 +20,7 @@
 
 ### O que eu aprendi
 - CSS
-```
+```css
 .buy-post .buy img{ /*Animation for the Ethereum icon*/
 
   animation: bownce 1s infinite alternate ease-in-out ;
@@ -39,7 +39,7 @@
 
 ```
 - JS
-```
+``js
 //LIB Gspa
     TweenMax.staggerFrom('.card', 2,{ //animation to the card
       delay: 0.2, 
