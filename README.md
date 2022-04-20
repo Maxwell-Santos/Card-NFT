@@ -4,8 +4,8 @@
 ![Card NFT](./images/screenshot.jpg)
 ### Links
 
-- Solution URL: [solution](https://www.frontendmentor.io/solutions/responsive-card-nft-S1Cs_UOE5)
 - Live Site URL: [Card NFT](https://nft-seven-nu.vercel.app/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/responsive-card-nft-S1Cs_UOE5)
 
 ## Meu processo
 
