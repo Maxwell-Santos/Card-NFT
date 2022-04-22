@@ -79,6 +79,22 @@ function add(){
 <p>Todas as cores estão num escopo :root no css, daí basta acrescentar a classe "lightmode" dentro do body, com as cores reorganiadas para o modo claro, ja que por padrâo o site é escuro</p>
 
 ```css
+:root{
+
+  --bg-color: hsl(217, 54%, 11%);
+  --bg-card-color: hsl(216, 50%, 16%);
+  --fildset:hsl(215, 32%, 27%);
+
+  --white: hsl(0, 0%, 100%);
+
+  --cyan: hsl(178, 100%, 50%);
+
+  --icon-color: hsl(0, 0%, 100%);
+
+  --font-color: hsla(0, 0%, 100%, 0.575);
+  
+}
+
 .lightmode{
   
   transition: background .3s ease, color .3s ease;
