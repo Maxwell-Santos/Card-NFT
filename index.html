@@ -5,14 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/toggle.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <title>Card NFT</title>
 
 </head>
 
-<body>
+<body class="">
+
+  <button class="toggle" onclick="add()"><img src="images/sunny-outline.svg" id="icon"></button>
   <main>
 
     <div class="card">
@@ -22,7 +28,7 @@
       </div>
 
       <div class="characteristcs">
-        <h3>Equilibrium <span>#3429</span></h3> 
+        <h3>Equilibrium <span>#3429</span></h3>
         <p>Our Equilibrium collection promotes balance and calm</p>
       </div>
 
@@ -37,7 +43,7 @@
           <img src="/images/icon-clock.svg" alt="icon clock">
           <span>3 days left</span>
         </div>
-      
+
       </div>
 
       <footer>
@@ -60,15 +66,16 @@
     </footer>
   </main>
 
+  <script src="darkmode.js"></script>
   <script>
-    TweenMax.staggerFrom('.card', 2,{
+    TweenMax.staggerFrom('.card', 2, {
       delay: 0.2,
       opacity: 0,
       y: 50,
       ease: Expo.easeInOut
 
     });
-    TweenMax.staggerFrom('.attribution', 1.6,{
+    TweenMax.staggerFrom('.attribution', 1.6, {
       delay: 1,
       opacity: 0,
       x: 50,
