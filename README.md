@@ -60,7 +60,7 @@
 ## Light mode
 ```js
 const icon = document.querySelector("#icon")
-const body = document.querySelector("body")
+const body = document.querySelector("body") //select tag body
 
 function add(){
   body.classList.toggle("lightmode") //add class to body
