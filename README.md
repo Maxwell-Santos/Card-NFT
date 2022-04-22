@@ -76,7 +76,7 @@ function add(){
 }
 ```
 - Toggle colors CSS
-<p>Todas as cores estão num escopo :root no css, daí basta acrescentar a classe "lightmode" dentro do body, com as cores reorganiadas para o modo claro, ja que por padrâo o site é escuro</p>
+<p>Todas as cores estão num escopo <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root">:root</a> no css, daí basta acrescentar a classe "lightmode" dentro do body, com as cores reorganiadas para o modo claro, ja que por padrâo o site é escuro</p>
 
 ```css
 :root{
