@@ -29,7 +29,7 @@ body{
   
 }
 
-.darkmode{
+.lightmode{
   
   transition: background .3s ease, color .3s ease;
 
