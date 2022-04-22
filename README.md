@@ -78,6 +78,7 @@ function add(){
 - Toggle colors CSS
 <p>Todas as cores estão num escopo :root no css, daí basta acrescentar a classe "lightmode" dentro do body, com as cores reorganiadas para o modo claro, ja que por padrâo o site é escuro</p>
 ```css
+
 .lightmode{
   
   transition: background .3s ease, color .3s ease;
