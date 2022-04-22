@@ -94,6 +94,9 @@ function add(){
   --font-color: hsla(0, 0%, 100%, 0.575);
   
 }
+```
+
+```css
 
 .lightmode{
   
