@@ -2,6 +2,8 @@
 ### Screenshot
 
 ![Card NFT](./images/screenshot.jpg)
+## Light-mode
+![Card NFT-light](./images/screenshot-light.jpg)
 ### Links
 
 - Live Site URL: [Card NFT](https://nft-seven-nu.vercel.app/)
